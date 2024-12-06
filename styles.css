@@ -1,0 +1,14 @@
+body {
+    background-color: #172540;
+  }
+  
+  .card {
+    background-color: #20386e;
+    color: #fff;
+  }
+
+  .password-toggle {
+    cursor: pointer;
+  }
+
+  

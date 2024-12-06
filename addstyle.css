@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2C3E50;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    background-color: #34495E;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1rem;
+    color: #BDC3C7;
+}
+
+.form-container {
+    margin-top: 30px;
+    background-color: #2C3E50;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #7F8C8D;
+    border-radius: 5px;
+    background-color: #34495E;
+    color: white;
+}
+
+.form-group input:focus {
+    border-color: #3498DB;
+}
+
+.submit-btn {
+    background-color: #3498DB;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+.back-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-btn a {
+    color: #BDC3C7;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.back-btn a:hover {
+    color: #3498DB;
+}
